@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG Editor</title>
+    <link rel="stylesheet" href="6_1098_VLAD_RALUCA_ALECSANDRA.css">
+</head>
+<body>
+    <h1>Editor SVG</h1>
+    <button id="linie">Linie</button>
+    <button id="elipsa">Elipsa</button>
+    <button id="dreptunchi">Dreptunghi</button>
+    <input type="color" name="" id="culoare">
+    <input type="number" name="" id="grosime" value="2" min="1">
+    <button id="undo">Undo</button>
+    <button id="exportSVG">Export SVG</button>
+    <button id="exportPNG">Export PNG</button>
+    <svg id="editorSvg">
+        <svg id="elemente"></svg>
+        <line id="selectieLinie" x1="0" y1="0" x2="200" y2="200" style="display:none"></line>
+        <ellipse id="selectieElipsa" cx="0" cy="0" rx="0" ry="0" style="display:none"></ellipse>
+        <rect id="selectieDreptunghi" width="0" height="0" style="display:none"></rect>
+    </svg>
+    <script src="6_1098_VLAD_RALUCA_ALECSANDRA.js"></script>
+</body>
+</html>
